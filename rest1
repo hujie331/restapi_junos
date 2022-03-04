@@ -1,0 +1,16 @@
+#!/usr/bin/python3
+
+from getpass import getpass
+import json
+
+import sys
+import signal
+import os
+import time
+import requests
+from requests.packages.urllib3.exceptions import InsecureRequestWarning
+requests.packages.urllib3.disable_warnings(InsecureRequestWarning)
+
+
+
+os.system()
